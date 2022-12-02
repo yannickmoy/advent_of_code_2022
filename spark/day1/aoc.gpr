@@ -1,0 +1,8 @@
+with "sparklib";
+project AOC is
+   for Main use ("day1.adb");
+
+   package Compiler is
+      for Default_Switches ("Ada") use ("-gnatX");
+   end Compiler;
+end AOC;
